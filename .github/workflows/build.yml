@@ -30,6 +30,5 @@ jobs:
 
       - name: Run pytrest
         run: |
-          cd ~/github-multiple-workflow-
           pytest 
 
