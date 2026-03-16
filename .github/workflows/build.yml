@@ -30,5 +30,6 @@ jobs:
 
       - name: Run pytrest
         run: |
-          pytest 
+           echo "Running pytest from repo root"
+           pytest
 
