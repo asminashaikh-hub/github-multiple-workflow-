@@ -30,6 +30,6 @@ jobs:
 
       - name: Run pytrest
         run: |
-          cd ~/github-actions-demo
+          cd ~/github-multiple-workflow-
           pytest 
 
