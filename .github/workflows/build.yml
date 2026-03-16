@@ -30,5 +30,6 @@ jobs:
 
       - name: Run pytrest
         run: |
-          pytest tests/test_first.py
+          cd ~/github-actions-demo
+          pytest 
 
