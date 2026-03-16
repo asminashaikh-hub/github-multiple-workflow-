@@ -31,5 +31,6 @@ jobs:
       - name: Run pytrest
         run: |
            echo "Running pytest from repo root"
+           export PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE
            pytest
 
